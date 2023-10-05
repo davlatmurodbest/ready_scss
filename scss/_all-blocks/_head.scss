@@ -1,0 +1,44 @@
+.head {
+    margin-left: 150px;
+    margin-bottom: 168px;
+
+    &__heading {
+        color: #83888F;
+        font-family: 'Fraunces';
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 32px;
+    }
+
+    &__list {
+        display: flex;
+        padding-top: 20px;
+    }
+
+    &__item+&__item {
+        padding-left: 150px;
+    }
+
+    &__item__heading {
+        color: #333D4B;
+        font-family: 'Fraunces';
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 36px;
+    }
+
+    &__text {
+        color: #333D4B;
+        font-family: 'Barlow';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+    }
+}
+
+.canada {
+    padding-top: 13px;
+}

@@ -1,22 +1,17 @@
-.header {
-    padding-top: 20px;
-    margin-bottom: 44px;
+.footer {
+    background-color: #2C343E;
+    padding: 47px 0px;
 
     .container {
         display: flex;
-        justify-content: space-between;
         align-items: center;
     }
 
-    &__list {
-        display: flex;
+    &__link__box {
+        padding-left: 103px;
     }
 
-    &__item+&__item {
-        padding-left: 33px;
-    }
-
-    &__text {
+    &__link {
         color: #83888F;
         font-family: 'Barlow';
         font-size: 12px;
@@ -25,8 +20,21 @@
         line-height: 15px;
         text-transform: uppercase;
 
+        & + & {
+            margin-left: 25px;
+        }
+
         &:hover {
-            color: #000;
+            color: #fff;
         }
     }
+    
+    &__pic__boxx {
+        padding-left: 580px;
+    }
+
+}
+
+.path__hover:hover {
+    fill: #FDD6BA;
 }

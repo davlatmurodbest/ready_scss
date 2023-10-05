@@ -1,0 +1,36 @@
+.about {
+    .container {
+        display: flex;
+        margin-bottom: 200px;
+    }
+
+    &__pic {
+        margin-left: 100px;
+        border-radius: 5px;
+    }
+
+    &__info {
+        width: 540px;
+        margin-left: 125px;
+        margin-top: 60px;
+    }
+
+    &__heading {
+        color: #333D4B;
+        font-family: 'Fraunces';
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 48px;
+    }
+
+    &__text {
+        color: #333D4B;
+        font-family: 'Barlow';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        opacity: 0.8;
+    }
+}
